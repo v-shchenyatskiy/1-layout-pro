@@ -11,7 +11,7 @@
 <body>
     <header class="header center">
         <div class="header__left">
-            <a href="#" class="logo"><img class="logo__img" src="img/1_header/1_logo.png" alt="1_logo.png">BRAN<span class="logo__d">D</span></a>
+            <a href="index.html" class="logo"><img class="logo__img" src="img/1_header/1_logo.png" alt="1_logo.png">BRAN<span class="logo__d">D</span></a>
             <form action="#" class="header__form">
                 <div class="header__browse">Browse
                     <div class="header__dropdown">
@@ -51,7 +51,7 @@
                 <a href="#"><img class="header__cart_img" src="img/1_header/3_cart.png" alt="3_cart.png"></a>
                 <div class="header__cart_dropdown">
                 <div class="header__cart_item">
-                    <a href="#" class="header__cart_item-img"><img src="img/1_header/5_cart_item.png" alt="5_cart_item.png"></a>
+                    <a href="singlepage.html" class="header__cart_item-img"><img src="img/1_header/5_cart_item.png" alt="5_cart_item.png"></a>
                     <div class="header__cart_content">
                         <h1 class="header__cart_h1">REBOX ZANE</h1>
                         <p class="header__cart_stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
@@ -60,7 +60,7 @@
                     <a href="" class="header__cart_delete"><i class="fas fa-times-circle"></i></a>
                 </div>
                 <div class="header__cart_item">
-                    <a href="#" class="header__cart_item-img"><img src="img/1_header/6_cart_item.png" alt="6_cart_item.png"></a>
+                    <a href="singlepage.html" class="header__cart_item-img"><img src="img/1_header/6_cart_item.png" alt="6_cart_item.png"></a>
                     <div class="header__cart_content">
                         <h1 class="header__cart_h1">REBOX ZANE</h1>
                         <p class="header__cart_stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
@@ -73,8 +73,8 @@
                     <p class="header__cart_totalsum_p">$500.00</p>
                 </div>
                 <div>
-                     <a href="#"><div class="header__cart_button">CHECKOUT</div></a>
-                     <a href="#"><div class="header__cart_button">GO TO CART</div></a>
+                     <a href="checkout.html"><div class="header__cart_button">CHECKOUT</div></a>
+                     <a href="shoppingcart.html"><div class="header__cart_button">GO TO CART</div></a>
                 </div>
             </div>                
             </div>
@@ -84,10 +84,10 @@
     <nav class="menu center">
         <ul class="menu__ul">
             <li class="menu__ul_li">
-                <a class="menu__link-active" href="#">Home</a>
+                <a class="menu__link" href="index.html">Home</a>
             </li>
             <li class="menu__ul_li">
-                <a class="menu__link" href="#">Man</a>
+                <a class="menu__link-active" href="product.html">Men</a>
                 <div class="menu__megamenu">
                     <div class="menu__megamenu_content">
                         <h3 class="menu__megamenu_h3">WOMEN</h3>
@@ -396,164 +396,216 @@
             </li>
         </ul>
     </nav>
-    <section class="slider center">
-        <div class="slider__content">
-                <h2 class="slider__content_h2">THE BRAND</h2>
-                <h3 class="slider__content_h3">OF LUXERIOUS <span class="slider__content_h3_fashion">FASHION</span></h3>
+    <nav class="p2_breadcrumb center">
+        <div class="breadcrumb__left">
+            <h2 class="breadcrumb__left_h2">New Arrivals</h2>
         </div>
-    </section>
-    <section class="banner center">
-        <div class="banner__left">
-            <div class="banner__left_1">
-                <a class="banner__link_big" href="#"></a>
-                <div>
-                    <a class="banner_text" href="#">
-                        <h4 class="banner_text_h4">HOT DEAL</h4>
-                        <h3 class="banner_text_h3">FOR MEN</h3> </a>
+        <div class="breadcrumb__right">
+            <a class="breadcrumb__right_link" href="index.html">Home</a>/
+            <a class="breadcrumb__right_link" href="product.html">Men</a>/
+            <a class="breadcrumb__right_link-active" href="#">New Arrivals</a>
+        </div>
+    </nav>
+    <main class="p2_main center">
+        <nav class="p2_main__left">
+            <details class="p2_main__left_details" open>
+                <summary class="p2_main__left_summary">CATEGORY</summary>
+                <a class="p2_main__left_link" href="#">Accessories</a>
+                <a class="p2_main__left_link" href="#">Bags</a>
+                <a class="p2_main__left_link" href="#">Denim</a>
+                <a class="p2_main__left_link" href="#">Hoodies & Sweatshirts</a>
+                <a class="p2_main__left_link" href="#">Jackets & Coats</a>
+                <a class="p2_main__left_link" href="#">Pants</a>
+                <a class="p2_main__left_link" href="#">Polos</a>
+                <a class="p2_main__left_link" href="#">Shirts</a>
+                <a class="p2_main__left_link" href="#">Shoes</a>
+                <a class="p2_main__left_link" href="#">Shorts</a>
+                <a class="p2_main__left_link" href="#">Sweaters & Knits</a>
+                <a class="p2_main__left_link" href="#">T-Shirts</a>
+                <a class="p2_main__left_link" href="#">Tanks</a>
+            </details>
+            <details class="p2_main__left_details">
+                <summary class="p2_main__left_summary">BRAND</summary>
+            </details>
+            <details class="p2_main__left_details">
+                <summary class="p2_main__left_summary">DESIGNER</summary>
+            </details>
+        </nav>
+        <div class="p2_main__right">
+            <div class="p2_main__topfilter">
+                <div class="p2_main__topfilter_row1">
+                    <div class="p2_main__topfilter_row1-l">
+                        <h3 class="p2_main__topfilter_h3">TRENDING NOW</h3>
+                        <div class="p2_main__topfilter_content">
+                            <p class="p2_main__topfilter_p">
+                                <a href="#" class="p2_main__topfilter_link">Bohemian</a>|
+                                <a href="#" class="p2_main__topfilter_link">Floral</a>|
+                                <a href="#" class="p2_main__topfilter_link">Lace</a>
+                            </p>
+                            <p class="p2_main__topfilter_p">
+                                <a href="#" class="p2_main__topfilter_link">Floral</a>|
+                                <a href="#" class="p2_main__topfilter_link">Lace</a>|
+                                <a href="#" class="p2_main__topfilter_link">Bohemian</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p2_main__topfilter_row1-m">
+                        <h3 class="p2_main__topfilter_h3">SIZE</h3>
+                        <form action="#" class="p2_main__topfilter_form">
+                                <div>
+                                    <p><input class="p2_main__topfilter_chb-size" type="checkbox" name="customer_size" value="XXS"><span class="p2_main__topfilter_chb-text">XXS</span></p>
+                                    <p><input class="p2_main__topfilter_chb-size" type="checkbox" name="customer_size" value="L"><span class="p2_main__topfilter_chb-text">L</span></p>
+                                </div>
+                                <div>
+                                    <p><input class="p2_main__topfilter_chb-size" type="checkbox" name="customer_size" value="XS"><span class="p2_main__topfilter_chb-text">XS</span></p>
+                                    <p><input class="p2_main__topfilter_chb-size" type="checkbox" name="customer_size" value="XL"><span class="p2_main__topfilter_chb-text">XL</span></p>
+                                </div>
+                                <div>
+                                    <p><input class="p2_main__topfilter_chb-size" type="checkbox" name="customer_size" value="S"><span class="p2_main__topfilter_chb-text">S</span></p>
+                                    <p><input class="p2_main__topfilter_chb-size" type="checkbox" name="customer_size" value="XXL"><span class="p2_main__topfilter_chb-text">XXL</span></p>
+                                </div>
+                                <div>
+                                    <p><input class="p2_main__topfilter_chb-size" type="checkbox" name="customer_size" value="M"><span class="p2_main__topfilter_chb-text">M</span></p>
+                                </div>
+                        </form>
+                    </div>
+                    <div class="p2_main__topfilter_row1-r">
+                        <h3 class="p2_main__topfilter_h3">PRICE</h3>
+                        <div class="p2_main__topfilter_range">
+                            <div class="p2_main__topfilter_range-line"></div>
+                            <a href="#"><div class="p2_main__topfilter_range-circle1"></div></a>
+                            <a href="#"><div class="p2_main__topfilter_range-circle2"></div></a>
+                        </div>
+                        <div class="p2_main__topfilter_price">
+                            <p class="p2_main__topfilter_price_p">$52</p>
+                            <p class="p2_main__topfilter_price_p">$400</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p2_main__topfilter_row2">
+                    <div class="p2_main__topfilter_sort">
+                        <h3 class="p2_main__topfilter_row2_h3">Sort By</h3>
+                        <form action="#" class="input_arrow-form-1">
+                            <input class="p2_main__topfilter_row2-input1" type="text" list="dl_sort-by"><span class="input_arrow-sort-down1"><i class="fas fa-sort-down"></i></span>
+                            <datalist id="dl_sort-by">
+                                <option value="Name">
+                                <option value="Price">
+                                <option value="Discount">
+                            </datalist>
+                        </form>
+                    </div>
+                    <div class="p2_main__topfilter_show">
+                        <h3 class="p2_main__topfilter_row2_h3">Show</h3>
+                        <form action="#" class="input_arrow-form-2">
+                            <input class="p2_main__topfilter_row2-input2" type="text" list="dl_show"><span class="input_arrow-sort-down2"><i class="fas fa-sort-down"></i></span>
+                            <datalist id="dl_show">
+                                <option value="01">
+                                <option value="02">
+                                <option value="03">
+                                <option value="04">
+                                <option value="05">
+                                <option value="06">
+                                <option value="07">
+                                <option value="08">
+                                <option value="09">
+                                <option value="10">
+                            </datalist>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="banner__left_2">
-                <a class="banner__link_small" href="#"></a>
-                <div>
-                    <a class="banner_text" href="#">
-                        <h4 class="banner_text_h4">LUXIROUS & TRENDY</h4>
-                        <h3 class="banner_text_h3">ACCESSORIES</h3> </a>
+            <div class="p2_main__product">
+                <div class="p2_main__product-item">
+                    <a href="singlepage.html" class="p2_main__product-item-link"><img src="img/8_p2_main/1_p2_product.png" alt="1_p2_product.png"></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h3">Mango People T-shirt</div></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h4">$52.00</div></a>
+                    <a href="#" class="p2_main__product-item_add-btn"><img src="img/8_p2_main/10_p2_cart.png" alt="10_p2_cart.png" class="product__items_hover_img">Add to Cart</a>
+                </div>
+                <div class="p2_main__product-item">
+                    <a href="singlepage.html" class="p2_main__product-item-link"><img src="img/8_p2_main/2_p2_product.png" alt="2_p2_product.png"></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h3">Mango People T-shirt</div></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h4">$52.00</div></a>
+                    <a href="#" class="p2_main__product-item_add-btn"><img src="img/8_p2_main/10_p2_cart.png" alt="10_p2_cart.png" class="product__items_hover_img">Add to Cart</a>
+                </div>
+                <div class="p2_main__product-item">
+                    <a href="singlepage.html" class="p2_main__product-item-link"><img src="img/8_p2_main/3_p2_product.png" alt="3_p2_product.png"></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h3">Mango People T-shirt</div></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h4">$52.00</div></a>
+                    <a href="#" class="p2_main__product-item_add-btn"><img src="img/8_p2_main/10_p2_cart.png" alt="10_p2_cart.png" class="product__items_hover_img">Add to Cart</a>
+                </div>
+                <div class="p2_main__product-item">
+                    <a href="singlepage.html" class="p2_main__product-item-link"><img src="img/8_p2_main/4_p2_product.png" alt="4_p2_product.png"></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h3">Mango People T-shirt</div></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h4">$52.00</div></a>
+                    <a href="#" class="p2_main__product-item_add-btn"><img src="img/8_p2_main/10_p2_cart.png" alt="10_p2_cart.png" class="product__items_hover_img">Add to Cart</a>
+                </div>
+                <div class="p2_main__product-item">
+                    <a href="singlepage.html" class="p2_main__product-item-link"><img src="img/8_p2_main/5_p2_product.png" alt="5_p2_product.png"></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h3">Mango People T-shirt</div></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h4">$52.00</div></a>
+                    <a href="#" class="p2_main__product-item_add-btn"><img src="img/8_p2_main/10_p2_cart.png" alt="10_p2_cart.png" class="product__items_hover_img">Add to Cart</a>
+                </div>
+                <div class="p2_main__product-item">
+                    <a href="singlepage.html" class="p2_main__product-item-link"><img src="img/8_p2_main/6_p2_product.png" alt="6_p2_product.png"></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h3">Mango People T-shirt</div></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h4">$52.00</div></a>
+                    <a href="#" class="p2_main__product-item_add-btn"><img src="img/8_p2_main/10_p2_cart.png" alt="10_p2_cart.png" class="product__items_hover_img">Add to Cart</a>
+                </div>
+                <div class="p2_main__product-item">
+                    <a href="singlepage.html" class="p2_main__product-item-link"><img src="img/8_p2_main/7_p2_product.png" alt="7_p2_product.png"></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h3">Mango People T-shirt</div></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h4">$52.00</div></a>
+                    <a href="#" class="p2_main__product-item_add-btn"><img src="img/8_p2_main/10_p2_cart.png" alt="10_p2_cart.png" class="product__items_hover_img">Add to Cart</a>
+                </div>
+                <div class="p2_main__product-item">
+                    <a href="singlepage.html" class="p2_main__product-item-link"><img src="img/8_p2_main/8_p2_product.png" alt="8_p2_product.png"></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h3">Mango People T-shirt</div></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h4">$52.00</div></a>
+                    <a href="#" class="p2_main__product-item_add-btn"><img src="img/8_p2_main/10_p2_cart.png" alt="10_p2_cart.png" class="product__items_hover_img">Add to Cart</a>
+                </div>
+                <div class="p2_main__product-item">
+                    <a href="singlepage.html" class="p2_main__product-item-link"><img src="img/8_p2_main/9_p2_product.png" alt="9_p2_product.png"></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h3">Mango People T-shirt</div></a>
+                    <a href="singlepage.html"><div class="p2_main__product-item-h4">$52.00</div></a>
+                    <a href="#" class="p2_main__product-item_add-btn"><img src="img/8_p2_main/10_p2_cart.png" alt="10_p2_cart.png" class="product__items_hover_img">Add to Cart</a>
+                </div>
+            </div>
+            <div class="p2_main__pagination">
+                <div class="p2_main__pagination-left">
+                    <ul class="p2_main__pagination-ul">
+                        <li><a href="#" class="p2_main__pagination-link"><i class="fas fa-chevron-left"></i></a></li>
+                        <li><a href="#" class="p2_main__pagination-link-active">1</a></li>
+                        <li><a href="#" class="p2_main__pagination-link">2</a></li>
+                        <li><a href="#" class="p2_main__pagination-link">3</a></li>
+                        <li><a href="#" class="p2_main__pagination-link">4</a></li>
+                        <li><a href="#" class="p2_main__pagination-link">5</a></li>
+                        <li><a href="#" class="p2_main__pagination-link">6</a></li>
+                        <li><a href="#" class="p2_main__pagination-link">...</a></li>
+                        <li><a href="#" class="p2_main__pagination-link">20</a></li>
+                        <li><a href="#" class="p2_main__pagination-link"><i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+                <div class="p2_main__pagination-right">
+                    <a href="#" class="p2_main__pagination-button">View All</a>
                 </div>
             </div>
         </div>
-        <div class="banner__right">
-            <div class="banner__right_1">
-                <a class="banner__link_small" href="#"></a>
-                <div>
-                    <a class="banner_text" href="#">
-                        <h4 class="banner_text_h4">30% OFFER</h4>
-                        <h3 class="banner_text_h3">WOMEN</h3> </a>
-                </div>
-            </div>
-            <div class="banner__right_2">
-                <a class="banner__link_big" href="#"></a>
-                <div>
-                    <a class="banner_text" href="#">
-                        <h4 class="banner_text_h4">NEW ARRIVALS</h4>
-                        <h3 class="banner_text_h3">FOR KIDS</h3> </a>
-                </div>
-            </div>
+    </main>
+    <section class="p2_featurebox center">
+        <div class="p2_featurebox__content">
+            <img class="p2_featurebox__img" src="img/9_p2_featurebox/1_featurebox.png" alt="1_featurebox.png">
+            <h4 class="p2_featurebox__h4">Free Delivery</h4>
+            <p class="p2_featurebox__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
         </div>
-    </section>
-    <section class="product center">
-        <h2 class="product__featured_h2">Featured Items</h2>
-        <p class="product__featured_p">Shop for items based on what we featured in this week</p>
-        
-        <article class="product__items">
-            <div class="product__items_item">
-                <a href="#"><img class="product__items_bg-img" src="img/4_index_product/1_item.png" alt="1_item.png"></a>
-                <div class="product__items_text">
-                    <a href="#">
-                        <h4 class="product__items_text_h4">Mango People T-shirt</h4>
-                        <p class="product__items_text_p">$52.00</p>
-                    </a>
-                    <a class="product__items_hover" href="#"><img src="img/4_index_product/9_cart.png" alt="9_cart.png" class="product__items_hover_img">Add to Cart</a>
-                </div>
-            </div>
-            <div class="product__items_item">
-                <a href="#"><img class="product__items_bg-img" src="img/4_index_product/2_item.png" alt="2_item.png"></a>
-                <div class="product__items_text">
-                    <a href="#">
-                        <h4 class="product__items_text_h4">Mango People T-shirt</h4>
-                        <p class="product__items_text_p">$52.00</p>
-                    </a>
-                    <a class="product__items_hover" href="#"><img src="img/4_index_product/9_cart.png" alt="9_cart.png" class="product__items_hover_img">Add to Cart</a>
-                </div>
-            </div>
-            <div class="product__items_item">
-                <a href="#"><img class="product__items_bg-img" src="img/4_index_product/3_item.png" alt="3_item.png"></a>
-                <div class="product__items_text">
-                    <a href="#">
-                        <h4 class="product__items_text_h4">Mango People T-shirt</h4>
-                        <p class="product__items_text_p">$52.00</p>
-                    </a>
-                    <a class="product__items_hover" href="#"><img src="img/4_index_product/9_cart.png" alt="9_cart.png" class="product__items_hover_img">Add to Cart</a>
-                </div>
-            </div>
-            <div class="product__items_item">
-                <a href="#"><img class="product__items_bg-img" src="img/4_index_product/4_item.png" alt="4_item.png"></a>
-                <div class="product__items_text">
-                    <a href="#">
-                        <h4 class="product__items_text_h4">Mango People T-shirt</h4>
-                        <p class="product__items_text_p">$52.00</p>
-                    </a>
-                    <a class="product__items_hover" href="#"><img src="img/4_index_product/9_cart.png" alt="9_cart.png" class="product__items_hover_img">Add to Cart</a>
-                </div>
-            </div>
-            <div class="product__items_item">
-                <a href="#"><img class="product__items_bg-img" src="img/4_index_product/5_item.png" alt="5_item.png"></a>
-                <div class="product__items_text">
-                    <a href="#">
-                        <h4 class="product__items_text_h4">Mango People T-shirt</h4>
-                        <p class="product__items_text_p">$52.00</p>
-                    </a>
-                    <a class="product__items_hover" href="#"><img src="img/4_index_product/9_cart.png" alt="9_cart.png" class="product__items_hover_img">Add to Cart</a>
-                </div>
-            </div>
-            <div class="product__items_item">
-                <a href="#"><img class="product__items_bg-img" src="img/4_index_product/6_item.png" alt="6_item.png"></a>
-                <div class="product__items_text">
-                    <a href="#">
-                        <h4 class="product__items_text_h4">Mango People T-shirt</h4>
-                        <p class="product__items_text_p">$52.00</p>
-                    </a>
-                    <a class="product__items_hover" href="#"><img src="img/4_index_product/9_cart.png" alt="9_cart.png" class="product__items_hover_img">Add to Cart</a>
-                </div>
-            </div>
-            <div class="product__items_item">
-                <a href="#"><img class="product__items_bg-img" src="img/4_index_product/7_item.png" alt="7_item.png"></a>
-                <div class="product__items_text">
-                    <a href="#">
-                        <h4 class="product__items_text_h4">Mango People T-shirt</h4>
-                        <p class="product__items_text_p">$52.00</p>
-                    </a>
-                    <a class="product__items_hover" href="#"><img src="img/4_index_product/9_cart.png" alt="9_cart.png" class="product__items_hover_img">Add to Cart</a>
-                </div>
-            </div>
-            <div class="product__items_item">
-                <a href="#"><img class="product__items_bg-img" src="img/4_index_product/8_item.png" alt="8_item.png"></a>
-                <div class="product__items_text">
-                    <a href="#">
-                        <h4 class="product__items_text_h4">Mango People T-shirt</h4>
-                        <p class="product__items_text_p">$52.00</p>
-                    </a>
-                    <a class="product__items_hover" href="#"><img src="img/4_index_product/9_cart.png" alt="9_cart.png" class="product__items_hover_img">Add to Cart</a>
-                </div>
-            </div>
-        </article>
-        <div class="product_button"><a href="#" class="button">Browse All Product</a></div>
-    </section>
-    <section class="feature center">
-        <div class="feature_back">
-            <div class="feature__left">
-                <div class="feature__left_content">
-                    <h2 class="feature__left_h2">30% <span class="feature__left_h2-offer">OFFER</span></h2>
-                    <h3 class="feature__left_h3">FOR WOMEN</h3>
-                </div>
-                <div class="feature__left_bg"><img src="img/5_index_feature/1_feature_bg.png" alt="1_feature_bg.png"></div>
-            </div>
-            <div class="feature__right">
-                <div class="feature__right_box"> <img src="img/5_index_feature/2_feature_icon1.png" alt="2_feature_icon1.png">
-                    <div class="feature__right_content">
-                        <h4 class="feature__right_content_h4">Free Delivery</h4>
-                        <h5 class="feature__right_content_h5">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5> </div>
-                </div>
-                <div class="feature__right_box"> <img src="img/5_index_feature/3_feature_icon2.png" alt="3_feature_icon2.png">
-                    <div class="feature__right_content">
-                        <h4 class="feature__right_content_h4">Sales & Discounts</h4>
-                        <h5 class="feature__right_content_h5">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5> </div>
-                </div>
-                <div class="feature__right_box"> <img src="img/5_index_feature/4_feature_icon3.png" alt="4_feature_icon3.png">
-                    <div class="feature__right_content">
-                        <h4 class="feature__right_content_h4">Quality Assurance</h4>
-                        <h5 class="feature__right_content_h5">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</h5> </div>
-                </div>
-            </div>
+        <div class="p2_featurebox__content">
+            <img class="p2_featurebox__img" src="img/9_p2_featurebox/2_featurebox.png" alt="2_featurebox.png">
+            <h4 class="p2_featurebox__h4">Free Delivery</h4>
+            <p class="p2_featurebox__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+        </div>
+        <div class="p2_featurebox__content">
+            <img class="p2_featurebox__img" src="img/9_p2_featurebox/3_featurebox.png" alt="3_featurebox.png">
+            <h4 class="p2_featurebox__h4">Free Delivery</h4>
+            <p class="p2_featurebox__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
         </div>
     </section>
     <section class="subscribe center">
@@ -579,7 +631,7 @@
     </section>
     <footer class="footer_content center">
         <article class="footer_content__left">
-            <a class="footer_content__left_link" href="#"><img class="footer_content__left_link-img" src="img/7_footer/1_logo.png" alt=""><h3 class="footer_content__left_link_h3">BRAN<span class="footer_content__left_link_h3-d">D</span></h3></a>
+            <a class="footer_content__left_link" href="index.html"><img class="footer_content__left_link-img" src="img/7_footer/1_logo.png" alt=""><h3 class="footer_content__left_link_h3">BRAN<span class="footer_content__left_link_h3-d">D</span></h3></a>
             <p class="footer_content__left_p">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
                 <br>
                 <br>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
@@ -587,7 +639,7 @@
         <nav class="footer_content__right">
             <ul class="footer__list">
                 <li class="footer__header">COMPANY</li>
-                <li><a href="#" class="footer__link">Home</a></li>
+                <li><a href="index.html" class="footer__link">Home</a></li>
                 <li><a href="#" class="footer__link">Shop</a></li>
                 <li><a href="#" class="footer__link">About</a></li>
                 <li><a href="#" class="footer__link">How It Works</a></li>
@@ -603,11 +655,11 @@
             </ul>
             <ul class="footer__list">
                 <li class="footer__header">SHOP CATEGORY</li>
-                <li><a href="#" class="footer__link">Men</a></li>
+                <li><a href="product.html" class="footer__link">Men</a></li>
                 <li><a href="#" class="footer__link">Women</a></li>
                 <li><a href="#" class="footer__link">Child</a></li>
                 <li><a href="#" class="footer__link">Apparel</a></li>
-                <li><a href="#" class="footer__link">Brows All</a></li>
+                <li><a href="#" class="footer__link">Browse All</a></li>
             </ul>
         </nav>
     </footer>
